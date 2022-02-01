@@ -17,34 +17,33 @@ import tk.mybatis.mapper.entity.Example;
 @Service
 public class StuServiceImpl implements StuService {
 
-    //@Autowired
-    //private StuMapper stuMapper;
+    @Autowired
+    private StuMapper stuMapper;
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<Stu> getStuInfo() {
-        //return stuMapper.selectAll();
-        return null;
+        return stuMapper.selectAll();
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void saveStu(Stu stu) {
-        //int ret = stuMapper.insertSelective(stu);
+        int ret = stuMapper.insertSelective(stu);
         return ;
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void update(Stu stu) {
-        //stuMapper.updateByPrimaryKey(stu);
+        stuMapper.updateByPrimaryKey(stu);
         return ;
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void delete(int id) {
-        //stuMapper.deleteByPrimaryKey(id);
+        stuMapper.deleteByPrimaryKey(id);
         return ;
     }
 }

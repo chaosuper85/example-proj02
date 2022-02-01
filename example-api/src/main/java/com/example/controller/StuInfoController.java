@@ -5,8 +5,8 @@ import com.example.pojo.Stu;
 import com.example.service.StuService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-//import io.swagger.annotations.Api;
-//import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,14 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @author zhuchao
  * @date 2022/1/30 12:36 上午
  */
-//@Api(value = "学生信息控制器", tags = {"学生信息控制器"})
+@Api(value = "学生信息控制器", tags = {"学生信息控制器"})
 @RestController
 public class StuInfoController {
 
     @Autowired
     private StuService stuService;
 
-    //@ApiOperation(value = "获取学生信息value", notes = "获取学生信息note", httpMethod = "GET")
+    @ApiOperation(value = "获取学生信息value", notes = "获取学生信息note", httpMethod = "GET")
     @GetMapping("/getStuInfo")
     public Object getStuInfo(int id) {
         int page = 2;
@@ -48,7 +48,7 @@ public class StuInfoController {
         return grid;
     }
 
-    //@ApiOperation(value = "保存学生信息value", notes = "保存学生信息note", httpMethod = "POST")
+    @ApiOperation(value = "保存学生信息value", notes = "保存学生信息note", httpMethod = "POST")
     @PostMapping("/saveStuInfo")
     public Stu saveStuInfo(@RequestBody Stu stu) {
         stuService.saveStu(stu);

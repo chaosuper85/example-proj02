@@ -1,19 +1,19 @@
 package com.example.pojo;
 
-//import io.swagger.annotations.ApiModel;
-//import io.swagger.annotations.ApiModelProperty;
-//import javax.persistence.Id;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import javax.persistence.Id;
 
-//@ApiModel(value = "学生信息POJO", description = "学生信息实体类")
+@ApiModel(value = "学生信息POJO", description = "学生信息实体类")
 public class Stu {
-    //@ApiModelProperty(value = "自增ID", required = true, example = "1")
-    //@Id
+    @ApiModelProperty(value = "自增ID", required = true, example = "1")
+    @Id
     private Integer id;
 
-    //@ApiModelProperty(value = "姓名", required = true, example = "张三")
+    @ApiModelProperty(value = "姓名", required = true, example = "张三")
     private String name;
 
-    //@ApiModelProperty(value = "年龄", required = true, example = "20岁")
+    @ApiModelProperty(value = "年龄", required = true, example = "20岁")
     private Integer age;
 
     /**
