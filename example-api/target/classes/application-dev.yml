@@ -20,7 +20,11 @@ spring:
     url: jdbc:mysql://localhost:3306/foodieshopdev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
     password:
-
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123
+    database: 0
 
 
 
