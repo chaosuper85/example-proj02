@@ -6,6 +6,7 @@ com/example/my/mapper/MyMapper.class
 com/example/mapper/ItemsSpecMapper.class
 com/example/mapper/ItemsMapper.class
 com/example/mapper/UsersMapper.class
+com/example/mapper/UserMapper.class
 com/example/mapper/UserAddressMapper.class
 com/example/mapper/ItemsCommentsMapper.class
 com/example/mapper/CarouselMapper.class

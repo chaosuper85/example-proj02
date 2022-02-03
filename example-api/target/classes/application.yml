@@ -17,8 +17,8 @@ server:
 ######################################################################
 spring:
   datasource: # 数据源的相关配置
-    type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
-    driver-class-name: com.mysql.cj.jdbc.Driver         # mysql驱动
+    #type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
+    #driver-class-name: com.mysql.cj.jdbc.Driver         # mysql驱动
     #    url: jdbc:mysql://localhost:3306/foodieshopdev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     #    username: root
     #    password:
@@ -45,6 +45,7 @@ mybatis:
   type-aliases-package: com.example.pojo   #所有pojo类所在路径
   mapper-locations: classpath:mapper/*.xml #mapper映射文件
   configuration:
+    jdbc-type-for-null: null
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 mapper:
   mappers: com.example.my.mapper.MyMapper
@@ -54,8 +55,6 @@ mapper:
 pagehelper:
   helperDialect: mysql
   supportMethodsArguments: true
-
-
 
 
 
