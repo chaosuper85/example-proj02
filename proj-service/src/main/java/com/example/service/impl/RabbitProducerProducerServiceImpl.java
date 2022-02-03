@@ -4,14 +4,6 @@ import com.example.service.RabbitProducerService;
 import java.util.Map;
 
 import java.util.UUID;
-import org.springframework.amqp.AmqpException;
-import org.springframework.amqp.core.MessagePostProcessor;
-import org.springframework.amqp.rabbit.connection.CorrelationData;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.core.RabbitTemplate.ConfirmCallback;
-import org.springframework.messaging.Message;
-import org.springframework.messaging.MessageHeaders;
-import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 
 /**
@@ -20,6 +12,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class RabbitProducerProducerServiceImpl implements RabbitProducerService {
+    /*
     private RabbitTemplate rabbitTemplate;
 
     final ConfirmCallback confirmCallback = new RabbitTemplate.ConfirmCallback(){
@@ -52,6 +45,8 @@ public class RabbitProducerProducerServiceImpl implements RabbitProducerService 
         return "ok";
 
     }
+
+     */
 
 
 }

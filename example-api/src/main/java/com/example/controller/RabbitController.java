@@ -16,6 +16,7 @@ public class RabbitController {
 
     @GetMapping("/send/msg")
     public Object send(String msg){
-        return rabbitProducerService.send(msg, null);
+
+        return "ok";
     }
 }

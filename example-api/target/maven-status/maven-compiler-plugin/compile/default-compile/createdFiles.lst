@@ -1,5 +1,6 @@
 com/example/ExampleApplication.class
 com/example/aop/ServiceLogAspect.class
+com/example/controller/RabbitController.class
 com/example/controller/StuInfoController.class
 com/example/controller/UserController.class
 com/example/config/CorsConfig.class
