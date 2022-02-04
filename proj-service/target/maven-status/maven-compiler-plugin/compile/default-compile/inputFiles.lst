@@ -1,13 +1,12 @@
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/RabbitConsumerServiceImpl.java
-/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RabbitProducerService.java
-/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RabbitConsumerService.java
-/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/RabbitProducerProducerServiceImpl.java
-/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/KafkaProducerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/UserServiceImpl.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/UserService.java
-/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/RocketmqProducerServiceImpl.java
+/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RabbitProducerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/StuServiceImpl.java
+/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RabbitConsumerService.java
+/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/RabbitProducerProducerServiceImpl.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/StuService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/KafkaProducerServiceImpl.java
+/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/KafkaProducerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RocketmqProducerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RocketmqConsumerService.java
