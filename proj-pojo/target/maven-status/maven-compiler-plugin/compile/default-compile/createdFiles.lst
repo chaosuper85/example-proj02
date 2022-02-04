@@ -10,5 +10,6 @@ com/example/pojo/Category.class
 com/example/pojo/Carousel.class
 com/example/pojo/Orders.class
 com/example/pojo/UserAddress.class
+com/example/pojo/kafka/MessageEntity.class
 com/example/pojo/ItemsComments.class
 com/example/pojo/OrderStatus.class

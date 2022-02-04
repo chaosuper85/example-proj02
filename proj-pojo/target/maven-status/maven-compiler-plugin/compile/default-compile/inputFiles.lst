@@ -5,6 +5,7 @@
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/Stu.java
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/ItemsSpec.java
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/ItemsParam.java
+/Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/kafka/MessageEntity.java
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/Orders.java
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/OrderStatus.java
 /Users/zhuchao/demo-projects/example-proj02/proj-pojo/src/main/java/com/example/pojo/OrderItems.java
