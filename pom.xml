@@ -170,6 +170,34 @@
     </dependency>
 
 
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.16</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.16</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-jaxb -->
+    <dependency>
+      <groupId>io.github.openfeign</groupId>
+      <artifactId>feign-jaxb</artifactId>
+      <version>11.8</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.belerweb/pinyin4j -->
+    <dependency>
+      <groupId>com.belerweb</groupId>
+      <artifactId>pinyin4j</artifactId>
+      <version>2.5.1</version>
+    </dependency>
+
+
+
   </dependencies>
 
 
