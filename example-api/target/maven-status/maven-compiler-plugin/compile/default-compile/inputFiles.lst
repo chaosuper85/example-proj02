@@ -1,9 +1,11 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/RabbitController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/ExampleApplication.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/XxlJobConfig.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/ApolloController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/aop/ServiceLogAspect.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/RocketmqController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/KafkaController.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/xxljob/TestHandler.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/EsController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/StuInfoController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/kafkamsg/KafkaConsumer.java

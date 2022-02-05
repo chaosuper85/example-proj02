@@ -6,6 +6,7 @@ com/example/annotation/MyLog.class
 com/example/aop/SysLogAspect.class
 com/example/aop/ResultRecorderAspect.class
 com/example/controller/UserController.class
+com/example/config/XxlJobConfig.class
 com/example/controller/EsController.class
 com/example/aop/ServiceLogAspect.class
 com/example/controller/RabbitController.class
@@ -13,6 +14,7 @@ com/example/controller/StuInfoController.class
 com/example/controller/RocketmqController.class
 com/example/controller/ApolloController.class
 com/example/config/CorsConfig.class
+com/example/xxljob/TestHandler.class
 com/example/controller/KafkaController.class
 com/example/annotation/ResultRecorder.class
 com/example/controller/RedisController.class

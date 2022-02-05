@@ -4,7 +4,7 @@
 #
 ############################################################
 server:
-  #port: 8088
+  #port: 8090
   tomcat:
     uri-encoding: UTF-8
   max-http-header-size: 80KB
@@ -92,5 +92,20 @@ pagehelper:
     #logging:
     #level:
   #com: info
-
+xxl:
+  job:
+    #admin:
+      # 地址为刚刚配置的调度中心的访问地址
+    #  addresses: http://127.0.0.1:8080/xxl-job-admin
+    #executor:
+      # 自定义appName（执行器名称）
+    #  appname: xxljobexample
+      # ip 可以写 （程序跑在的机器ip上），也可以不写
+      # ip:
+      # port:
+      # 执行器日志文件存储路径
+    #  logpath: /Users/zhuchao/demo-projects/example-proj02/log/jobhandler
+      # 设置日志过期时间  -1表示永不过期
+    #  logretentiondays: -1
+    #  accessToken:
 
