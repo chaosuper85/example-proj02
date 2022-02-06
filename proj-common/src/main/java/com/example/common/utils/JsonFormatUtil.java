@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
  * @date 2022/2/5 11:25 下午
  */
 @Slf4j
-public class JsonFormatUtils {
+public class JsonFormatUtil {
 
     private static ObjectMapper mapper = new ObjectMapper();
 

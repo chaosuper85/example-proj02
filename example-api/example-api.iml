@@ -23,6 +23,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="proj-service" />
     <orderEntry type="module" module-name="proj-common" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.19" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.19" level="project" />
     <orderEntry type="module" module-name="proj-mapper" />
     <orderEntry type="module" module-name="proj-pojo" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.5.RELEASE" level="project" />
@@ -32,7 +34,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.19" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.19" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.19" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.16.Final" level="project" />

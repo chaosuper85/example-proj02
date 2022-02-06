@@ -23,7 +23,7 @@ import org.apache.commons.lang3.StringUtils;
  * @date 2022/2/5 11:26 下午
  */
 @Slf4j
-public class DateUtils {
+public class DateUtil {
     private static ObjectMapper mapper = new ObjectMapper();
 
     public static final String DATE_LOCAL_US = "US";

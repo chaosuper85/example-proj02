@@ -60,6 +60,6 @@ public class ObjectXmlMapperUtil {
     public static void main(String[] args) {
         String xml = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><OrderDetailResult><bookManMobile>18310201535</bookManMobile><bookManName>滕博超</bookManName></OrderDetailResult>";
         OrderDetailResult orderDetailResult = xmlToBean(xml, OrderDetailResult.class);
-        System.out.println((JsonFormatUtils.toJSON(orderDetailResult)));
+        System.out.println((JsonFormatUtil.toJSON(orderDetailResult)));
     }
 }
