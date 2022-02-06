@@ -6,7 +6,7 @@ import org.apache.commons.lang3.CharSet;
  * @author zhuchao
  * @date 2022/2/6 11:00 上午
  */
-public class JSONUtils {
+public class JSONUtil {
 
     /**
      * references: http://kb.mozillazine.org/Network.IDN.blacklist_chars

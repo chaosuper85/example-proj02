@@ -47,7 +47,7 @@ public class JsonFormatUtil {
             } else {
                 toJsonResult = mapper.writeValueAsString(obj);
             }
-            return JSONUtils.filterOutIllegalCharacter(toJsonResult);
+            return JSONUtil.filterOutIllegalCharacter(toJsonResult);
         } catch (Exception e) {
             log.error("JsonFormatUtils toJSON Exception, ", e);
             throw new RuntimeException(e);
