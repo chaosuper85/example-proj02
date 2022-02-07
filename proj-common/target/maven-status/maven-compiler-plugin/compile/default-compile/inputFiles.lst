@@ -18,5 +18,6 @@
 /Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/aspect/CacheAspect.java
 /Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/utils/JsonFormatUtil.java
 /Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/utils/DateUtil.java
+/Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/utils/JSONUtil.java
 /Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/utils/StringUtilExt.java
 /Users/zhuchao/demo-projects/example-proj02/proj-common/src/main/java/com/example/common/utils/RSAUtil.java

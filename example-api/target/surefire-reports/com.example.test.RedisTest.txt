@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.test.RedisTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.447 s <<< FAILURE! - in com.example.test.RedisTest
+testOne(com.example.test.RedisTest)  Time elapsed: 0.275 s  <<< ERROR!
+redis.clients.jedis.exceptions.JedisDataException: NOAUTH Authentication required.
+	at com.example.test.RedisTest.testOne(RedisTest.java:30)
+

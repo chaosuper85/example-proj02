@@ -8,6 +8,7 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/xxljob/TestHandler.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/EsController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/StuInfoController.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/RedisConfiguration.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/kafkamsg/KafkaConsumer.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/CorsConfig.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/annotation/ResultRecorder.java

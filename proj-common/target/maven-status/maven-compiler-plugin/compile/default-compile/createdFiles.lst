@@ -16,6 +16,7 @@ com/example/common/utils/AesUtil.class
 com/example/common/aspect/HttpLogPrintAspect.class
 com/example/common/PagedGridResult.class
 com/example/common/utils/GZipUtil.class
+com/example/common/utils/JSONUtil.class
 com/example/common/utils/ObjectXmlMapperUtil$OrderDetailResult.class
 com/example/common/utils/ExecelUtil.class
 com/example/common/utils/RSAUtil.class

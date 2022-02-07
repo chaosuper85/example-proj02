@@ -17,6 +17,7 @@ com/example/config/CorsConfig.class
 com/example/xxljob/TestHandler.class
 com/example/controller/KafkaController.class
 com/example/annotation/ResultRecorder.class
+com/example/config/RedisConfiguration.class
 com/example/controller/RedisController.class
 com/example/config/Swagger2.class
 com/example/controller/HelloController.class
