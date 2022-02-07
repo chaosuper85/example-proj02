@@ -113,12 +113,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-redis</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>io.lettuce</groupId>
-          <artifactId>lettuce-core</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
 
@@ -200,12 +194,6 @@
       <groupId>com.belerweb</groupId>
       <artifactId>pinyin4j</artifactId>
       <version>2.5.1</version>
-    </dependency>
-
-
-    <dependency>
-      <groupId>redis.clients</groupId>
-      <artifactId>jedis</artifactId>
     </dependency>
 
 

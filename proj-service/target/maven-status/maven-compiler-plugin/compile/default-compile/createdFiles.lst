@@ -1,7 +1,6 @@
 com/example/service/RabbitProducerService.class
 com/example/service/impl/KafkaProducerServiceImpl.class
 com/example/service/impl/RabbitConsumerServiceImpl.class
-com/example/service/impl/RedisDistributedLock$1.class
 com/example/service/impl/StuServiceImpl.class
 com/example/service/UserService.class
 com/example/service/DistributedLock.class

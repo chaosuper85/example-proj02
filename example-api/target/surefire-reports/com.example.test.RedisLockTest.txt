@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.test.RedisLockTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.test.RedisLockTest
-testOne(com.example.test.RedisLockTest)  Time elapsed: 0 s  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<true> but was:<false>
-	at com.example.test.RedisLockTest.testOne(RedisLockTest.java:33)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.742 s - in com.example.test.RedisLockTest

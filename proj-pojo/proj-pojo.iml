@@ -94,6 +94,15 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.1.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.1.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.lettuce:lettuce-core:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.36.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.2.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shardingsphere:sharding-spring-boot-util:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shardingsphere:sharding-jdbc-core:4.0.0" level="project" />
@@ -182,13 +191,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.plugin:transport-netty4-client:6.4.3" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.36.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.36.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.36.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.36.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.36.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.36.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.36.Final" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-client:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-core:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.inject:guice:4.1.0" level="project" />
@@ -216,7 +219,5 @@
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: com.belerweb:pinyin4j:2.5.1" level="project" />
-    <orderEntry type="library" name="Maven: redis.clients:jedis:2.9.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.6.2" level="project" />
   </component>
 </module>

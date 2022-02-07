@@ -1,3 +1,4 @@
+com/example/config/RedisClusterConfiguration.class
 com/example/ExampleApplication.class
 com/example/kafkamsg/KafkaConsumer.class
 com/example/controller/ExceptionController.class

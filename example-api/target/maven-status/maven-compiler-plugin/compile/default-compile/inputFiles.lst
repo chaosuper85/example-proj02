@@ -21,3 +21,4 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/UserController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/aop/ResultRecorderAspect.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/exceptionhandle/MyExceptionHandler.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/RedisClusterConfiguration.java
