@@ -3,6 +3,7 @@
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/RabbitConsumerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/RabbitProducerProducerServiceImpl.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/DistributedLock.java
+/Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/DistributeLockZK.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/KafkaProducerService.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/impl/UserServiceImpl.java
 /Users/zhuchao/demo-projects/example-proj02/proj-service/src/main/java/com/example/service/UserService.java

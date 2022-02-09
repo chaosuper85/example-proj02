@@ -7,11 +7,13 @@ com/example/annotation/MyLog.class
 com/example/aop/SysLogAspect.class
 com/example/aop/ResultRecorderAspect.class
 com/example/controller/UserController.class
+com/example/controller/LockZkController.class
 com/example/config/XxlJobConfig.class
 com/example/controller/EsController.class
 com/example/aop/ServiceLogAspect.class
 com/example/controller/RabbitController.class
 com/example/controller/StuInfoController.class
+com/example/config/CuratorConfiguration.class
 com/example/controller/RocketmqController.class
 com/example/controller/ApolloController.class
 com/example/config/CorsConfig.class

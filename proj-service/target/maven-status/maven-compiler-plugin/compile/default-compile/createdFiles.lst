@@ -13,3 +13,4 @@ com/example/service/RabbitConsumerService.class
 com/example/service/RocketmqConsumerService.class
 com/example/service/impl/UserServiceImpl.class
 com/example/service/impl/RabbitProducerProducerServiceImpl.class
+com/example/service/DistributeLockZK.class

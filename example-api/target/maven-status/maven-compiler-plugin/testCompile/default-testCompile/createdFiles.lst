@@ -1,2 +1,3 @@
 com/example/test/ESTest.class
+com/example/test/ZKLockTest.class
 com/example/test/RedisLockTest.class
