@@ -3,6 +3,8 @@ package com.example;
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.scheduling.annotation.EnableAsync;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import tk.mybatis.spring.annotation.MapperScan;
 
@@ -14,14 +16,14 @@ import tk.mybatis.spring.annotation.MapperScan;
 //@EnableSwagger2
 @SpringBootApplication
 @MapperScan(value = "com.example.mapper")
+//@ServletComponentScan
+//@EnableAsync
 public class ExampleApplication {
-
     public static void main(String[] args) {
         try{
             SpringApplication.run(ExampleApplication.class, args);
         }catch(Throwable e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
-
     }
 }

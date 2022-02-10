@@ -15,7 +15,7 @@ public class CorsConfig {
     public CorsConfig() {
 
     }
-
+/*
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
@@ -41,5 +41,7 @@ public class CorsConfig {
         //3. 返回
         return new CorsFilter(corsConfigurationSource);
     }
+
+ */
 
 }

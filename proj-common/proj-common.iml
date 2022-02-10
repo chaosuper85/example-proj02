@@ -245,5 +245,10 @@
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-common-default:1.6.3" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-client-default:1.6.3" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-sentinel-datasource:2.1.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.19" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.16.Final" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
   </component>
 </module>

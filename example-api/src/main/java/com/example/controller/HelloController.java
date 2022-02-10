@@ -22,8 +22,9 @@ public class HelloController {
     @MyLog(value = "test log annotation")
     @GetMapping("/test")
     public Object test() {
-        logger.info("hello,test");
+        logger.info("hello");
         return "ok";
+
     }
 
 }

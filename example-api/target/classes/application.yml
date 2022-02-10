@@ -58,9 +58,8 @@ spring:
     active: dev
   application:
     name: example-proj02
-
-
-######################################################################
+  main:
+    allow-bean-definition-overriding=true: true
 #
 #  mybatis 配置
 #
