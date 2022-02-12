@@ -11,6 +11,9 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.omg.CORBA.UNKNOWN;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 /**
  * @author zhuchao
@@ -18,6 +21,7 @@ import org.apache.commons.lang3.StringUtils;
  */
 @Slf4j
 public class IpUtil {
+    private static final String UNKNOWN = "unknown";
 
     private static String getLocalIp() throws UnknownHostException {
         String sysType = System.getProperties().getProperty("os.name");
@@ -91,5 +95,25 @@ public class IpUtil {
             log.info("remoteAddr 1--->");
             return request.getRemoteAddr();
         }
+    }
+
+    /**
+     * 获取访问者IP地址
+     *
+     * @return
+     */
+    public String getIpAddress() {
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        String ip = request.getHeader("x-forwarded-for");
+        if (ip == null || ip.length() == 0 || UNKNOWN.equalsIgnoreCase(ip)) {
+            ip = request.getHeader("Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || UNKNOWN.equalsIgnoreCase(ip)) {
+            ip = request.getHeader("WL-Proxy-Client-IP");
+        }
+        if (ip == null || ip.length() == 0 || UNKNOWN.equalsIgnoreCase(ip)) {
+            ip = request.getRemoteAddr();
+        }
+        return ip;
     }
 }
