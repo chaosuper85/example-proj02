@@ -1,6 +1,7 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/conditional/City.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/conditional/WindowsCondition.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/ValidateTestController.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/functional/MyFunction.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/LockZkController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/LoginController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/RedisConfiguration.java
@@ -32,6 +33,7 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/ConditionalController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/conditional/BeanConfig.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/ExampleApplication.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/functional/Student.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/config/XxlJobConfig.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/ApolloController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/annotation/FlagValidator.java
@@ -45,6 +47,7 @@
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/conditional/MacCondition.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/EsController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/interceptor/CustomWebMvcConfigurer.java
+/Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/functional/FuncTest.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/controller/StuInfoController.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/annotation/MyLog.java
 /Users/zhuchao/demo-projects/example-proj02/example-api/src/main/java/com/example/listener/WebListener.java

@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class DistributeLockZK  {
     private final static String ROOT_PATH = "/zk_locck";
-    @Autowired
+    //@Autowired
     private CuratorFramework curatorFramework;
 
     public InterProcessLock acquire(String path, long waitTime, TimeUnit timeUnit) {

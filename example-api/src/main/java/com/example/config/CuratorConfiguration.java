@@ -28,7 +28,7 @@ public class CuratorConfiguration {
     private Integer sessionTimeoutMs;
     @Value("${curator.connectionTimeoutMs}")
     private Integer connectionTimeoutMs;
-
+/*
     @Bean(initMethod = "start")
     public CuratorFramework curatorFramework() {
         return CuratorFrameworkFactory.newClient(
@@ -38,4 +38,6 @@ public class CuratorConfiguration {
                 new RetryNTimes(retryCount, elapsedTimeMs)
         );
     }
+    
+ */
 }

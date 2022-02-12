@@ -7,6 +7,7 @@ com/example/conditional/SystemBean.class
 com/example/kafkamsg/KafkaConsumer.class
 com/example/controller/ExceptionController.class
 com/example/exceptionhandle/MyExceptionHandler.class
+com/example/functional/Student.class
 com/example/validate/TestDTO.class
 com/example/controller/LockZkController.class
 com/example/config/XxlJobConfig.class
@@ -28,6 +29,7 @@ com/example/conditional/ConditionalConfig.class
 com/example/config/RedisClusterConfiguration.class
 com/example/controller/SentinelController.class
 com/example/ExampleApplication.class
+com/example/functional/MyFunction.class
 com/example/controller/ConditionalBeanController.class
 com/example/controller/ConditionalController.class
 com/example/filter/LoginFilter.class
@@ -40,6 +42,7 @@ com/example/listener/WebListener.class
 com/example/controller/EsController.class
 com/example/controller/AsyncController.class
 com/example/controller/RocketmqController.class
+com/example/functional/FuncTest.class
 com/example/validate/FlagValidatorClass.class
 com/example/interceptor/CustomWebMvcConfigurer.class
 com/example/beans/ConfigBean.class
